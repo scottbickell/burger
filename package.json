@@ -1,11 +1,11 @@
 {
   "name": "12-burger",
   "version": "1.0.0",
-  "description": "a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!).",
+  "description": "## A description of what the project is for.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,6 @@
   "dependencies": {
     "express": "^4.16.4",
     "express-handlebars": "^3.0.0",
-    "mysql": "^2.16.0",
-    "nodemon": "^1.18.9"
+    "mysql2": "^1.6.4"
   }
 }
